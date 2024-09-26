@@ -2,9 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Merges two subarrays of arr[].
-// First subarray is arr[l..m]
-// Second subarray is arr[m+1..r]
+//오늘은 정말 움직이기 싫은 날입니당... 하지만 빤짝빤짝 하고 나면 기분이 좋아질 것 같아용 흐흫
 void merge(int arr[], int l,
 		int m, int r)
 {
