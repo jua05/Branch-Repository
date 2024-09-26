@@ -9,10 +9,7 @@ def partition(l, r, nums):
     # Finally swapping the last element with the pointer indexed number
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
- 
-# With quicksort() function, we will be utilizing the above code to obtain the pointer
-# at which the left values are all smaller than the number at pointer index and vice versa
-# for the right values.
+
  
  
 def quicksort(l, r, nums):
@@ -20,8 +17,9 @@ def quicksort(l, r, nums):
         return nums
     if l < r:
         pi = partition(l, r, nums)
-        quicksort(l, pi-1, nums)  # Recursively sorting the left values
-        quicksort(pi+1, r, nums)  # Recursively sorting the right values
+        quicksort(l, pi-1, nums)  
+        quicksort(pi+1, r, nums)
+  
     return nums
  
 print("dd")
