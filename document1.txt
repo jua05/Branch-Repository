@@ -9,8 +9,9 @@ def partition(l, r, nums):
     # Finally swapping the last element with the pointer indexed number
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
-
- 
+def hohoho():
+    #djkfjfkdjlfksjflkjdsflksjdflksjflkdsjflkajslkfaㄹ
+    #너모너모너모 너모너모너모 힘들어용 하지만 한시간 남았써용 화이팅
  
 def quicksort(l, r, nums):
     if len(nums) == 1:  # Terminating Condition for recursion. VERY IMPORTANT!
